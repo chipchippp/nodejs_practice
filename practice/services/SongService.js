@@ -10,7 +10,7 @@ exports.createSong = async(song) => {
 exports.getSongById = async(id) => {
     return await SongModel.findById(id);
 };
-exports.updateSong = async(id, Song) => {
+exports.updateSong = async(id, song) => {
     return await SongModel.findByIdAndUpdate(id, song);
 };
 exports.deleteSong = async(id) => {
