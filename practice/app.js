@@ -8,7 +8,7 @@ app.use(express.json());
 app.use("/api/songs", songRouter);
 
 app.listen(3001, ()=>{
-    console.log(`Server started on http://localhost:3001/api/crud-songs`)
+    console.log(`Server started on http://localhost:3001/api/songs`)
 })
 
 const mongoose = require('mongoose')
